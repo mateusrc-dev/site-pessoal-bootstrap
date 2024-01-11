@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Mateus Carvalho</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top p-4">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">
+                Dr. Mateus Carvalho
+            </h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-profissional" class="nav-link">
+                            <i class="bi bi-person me-1"></i>
+                            Sobre o profissional
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#experiencias" class="nav-link">
+                            <i class="bi bi-emoji-laughing"></i>
+                            Experiências
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-profissional">
+            <div id="meu-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/slides/consultório.jpg" class="d-block w-100" alt="consultório">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5><em>Consultório confortável (Clínica Cuidarte)</em></h5>
+                            <p class="fw-bold">Pensando principalmente no seu conforto e privacidade.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/recepção.jpg" class="d-block w-100" alt="recepção">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5><em>Espaços confortáveis (Clínica Cuidarte)</em></h5>
+                            <p class="fw-bold">Pensando principalmente no seu bem estar.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev bg-dark bg-opacity-50" type="button" data-bs-target="#meu-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next bg-dark bg-opacity-50" type="button" data-bs-target="#meu-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#meu-carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#meu-carousel" data-bs-slide-to="1"></button>
+                </div>
+            </div>
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <div id="container-foto-profissional" class="col-md-4" style="position: relative">
+                        <img id="foto-profissional" src="./images/foto-profissional.jpg" class="d-block w-100 rounded" alt="Foto do profissional">
+                        <span class="nome-profissional bg-info bg-opacity-50 fw-bold rounded">Dr. Mateus Carvalho</span>
+                    </div>
+                    <div class="col-md-4 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre <span class="text-colored">o profissional</span></h2>
+                        <div class="accordion accordion-flush" id="accordionFlush">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Graduação e Especializações
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+                                    <div class="accordion-body">
+                                        Graduado em psicologia, pós-graduado em terapia-cognitivo-comportamental e neuropsicologia.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Experiência
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+                                    <div class="accordion-body">
+                                        Atuo a 4 anos na área. Possuo experiência atendendo casos de ansiedade e depressão, problemas de concentração no trabalho e estudos, problemas
+                                        em relacionamentos, baixa auto estima e auto crítica, etc.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Demandas atendidas
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+                                    <div class="accordion-body">
+                                        Atendo demandas de ansiedade, depressão, dificuldade de concentração, dificuldade em relacionamentos interpessoais, baixa auto-estima
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Público
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+                                    <div class="accordion-body">
+                                        Adolescentes (acima de 12 anos), adultos e idosos
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-3 mt-md-0">
+                        <h3 class="section-title">Sobre <span class="text-colored">a terapia</span></h3>
+                        <div id="meu-carousel-com-texto" class="carousel slide">
+                            <div class="carousel-inner" style="display: block; width: 100%; height: 350px; justify-content: center; align-items: center">
+                                <div class="carousel-item active">
+                                    <h5 class="text-center fw-bold bg-opacity-50 bg-dark pt-2" style="height: 350px; padding-inline: 70px; color: #fff">
+                                        <em>Terapia cognitivo comportamental</em> é uma abordagem psicológica que ajuda o paciente a desenvolver a 
+                                        <span class="text-success"><em>flexibilidade psicológica.</em></span>
+                                    </h5>
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="text-center fw-bold bg-opacity-50 bg-dark pt-2" style="height: 350px; padding-inline: 70px; color: #fff">
+                                        <span class="text-success"><em>Flexibilidade psicológica</em></span> é uma qualidade do estado psicológico no qual o indivíduo está consciente
+                                        do momento presente, notanto os sentimentos, pensamentos, emoções e permitindo que eles sejam como são, lidando com as próprias experiências 
+                                        internas de forma aberta e consciente.
+                                    </h5>
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="text-center fw-bold bg-opacity-50 bg-dark pt-2" style="height: 350px; padding-inline: 70px; color: #fff">
+                                        <span class="text-success"><em>Flexibilidade psicológica</em></span> tem relação com a metacognição. Metacognição é quando estamos conscientes
+                                        que estamos conscientes. É saber que sei, notar que estou notando, perceber que estou percebendo. Essa habilidade é essencial para sair do um estado 
+                                        chamado <em>piloto automático.</em>
+                                    </h5>
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="text-center fw-bold bg-opacity-50 bg-dark pt-2" style="height: 350px; padding-inline: 70px; color: #fff">
+                                        <span class="text-success"><em>Desenvolver essas habilidades é algo central na TCC (entre muitas outras habilidades).</em></span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#meu-carousel-com-texto" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#meu-carousel-com-texto" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experiencias" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5"><span class="text-colored">Experiências</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="row">
+                        <ul id="myTab" class="nav nav-tabs nav-experiencia">
+                            <li class="nav-item">
+                                <button 
+                                    class="fw-bold text-start nav-link text-colored active" 
+                                    data-bs-toggle="tab" 
+                                    data-bs-target="#acolhimento-tab" 
+                                    type="button"
+                                >
+                                    Acolhimento
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button 
+                                    class="fw-bold text-start nav-link text-colored" 
+                                    data-bs-toggle="tab" 
+                                    data-bs-target="#escuta-tab"
+                                    type="button"
+                                >
+                                    Escuta
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button 
+                                    class="fw-bold text-start nav-link text-colored" 
+                                    data-bs-toggle="tab" 
+                                    data-bs-target="#empatia-tab" 
+                                    type="button"
+                                >
+                                    Empatia
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button 
+                                    class="fw-bold text-start nav-link text-colored" 
+                                    data-bs-toggle="tab" 
+                                    data-bs-target="#compaixao-tab" 
+                                    type="button"
+                                >
+                                    Compaixão
+                                </button>
+                            </li>
+                        </ul>
+                    </aside>
+                    <div class="row">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="acolhimento-tab">
+                                <div class="row">
+                                    <div class="card text-bg-dark">
+                                        <img id="img-card" src="./images/experiencias/acolhimento.png" alt="">
+                                        <div class="card-img-overlay bg-dark bg-opacity-50 p-4 fw-bold">
+                                            <h5 class="sub-title fw-bold">Acolhimento</h5>
+                                            <p class="card-text">
+                                                A terapia é um espaço de acolhimento, onde o paciente pode manifestar seus sentimentos e pensamentos e o terapeuta busca estar aberto
+                                                a suas experiências internas (pensamentos e sentimentos) para ser capaz de estar aberto ao que o paciente manifesta na terapia.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="escuta-tab">
+                                <div class="row">
+                                    <div class="card text-bg-dark">
+                                        <img id="img-card" src="./images/experiencias/escuta.jpg" alt="">
+                                        <div class="card-img-overlay bg-dark bg-opacity-50 p-4 fw-bold">
+                                            <h5 class="sub-title fw-bold">Escuta</h5>
+                                            <p class="card-text">
+                                                O terapeuta buscar estar com a mente presente durante a terapia para estar em um contato maior com o paciente.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="empatia-tab">
+                                <div class="row">
+                                    <div class="card text-bg-dark">
+                                        <img id="img-card" src="./images/experiencias/empatia.webp" alt="">
+                                        <div class="card-img-overlay bg-dark bg-opacity-50 p-4 fw-bold">
+                                            <h5 class="sub-title fw-bold">Empatia</h5>
+                                            <p class="card-text">
+                                                O espaço terapêutico oferece um clima de compreensão, o terapeuta busca compreender a experiência do paciente a partir do ponto de vista
+                                                do paciente, a partir da forma do paciente de ver o mundo.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="compaixao-tab">
+                                <div class="row">
+                                    <div class="card text-bg-dark">
+                                        <img id="img-card" src="./images/experiencias/compaixão.jpg" alt="">
+                                        <div class="card-img-overlay bg-dark bg-opacity-50 p-4 fw-bold">
+                                            <h5 class="sub-title fw-bold">Compaixão</h5>
+                                            <p class="card-text">
+                                                O terapeuta busca ser capaz de oferecer compaixão aos seus defeitos para ser capaz de oferecer compaixão as imperfeições do paciente.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="https://www.instagram.com/psimateuscarvalho/" title="Siga-me no Instagram" target="_blank">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="https://api.whatsapp.com/send?phone=5586999654617&text=Ol%C3%A1,%20gostaria%20de%20marcar%20uma%20consulta%20com%20o%20Dr.%20Mateus%20Carvalho">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="address" class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <ul>
+                                <li>
+                                    <a
+                                        href="https://www.google.com.br/maps/place/Cl%C3%ADnica+Cuidarte/@-5.0617392,-42.7863886,17z/data=!4m16!1m9!3m8!1s0x78e3a2a4596ad99:0xa8a973e313a0c5b3!2sCl%C3%ADnica+Cuidarte!8m2!3d-5.0617392!4d-42.7838137!9m1!1b1!16s%2Fg%2F11bbwxcrwg!3m5!1s0x78e3a2a4596ad99:0xa8a973e313a0c5b3!8m2!3d-5.0617392!4d-42.7838137!16s%2Fg%2F11bbwxcrwg?entry=ttu"
+                                        target="_blank"
+                                    >
+                                        Clínica Cuidarte - Av. Homero Castelo Branco, 2676 - Horto, Teresina - PI, 64052-445
+                                    </a>
+                                </li>
+                                <li>
+                                    <a 
+                                        href="https://www.google.com.br/maps/place/Terap%C3%AAutica/@-5.0706446,-42.7896425,17z/data=!4m10!1m2!2m1!1sCl%C3%ADnica+terapeutica!3m6!1s0x78e398b1a3533f5:0x96f3770854eb526a!8m2!3d-5.0706446!4d-42.7848789!15sChRDbMOtbmljYSB0ZXJhcGV1dGljYZIBFG1lbnRhbF9oZWFsdGhfY2xpbmlj4AEA!16s%2Fg%2F11b6dqyt8j?entry=ttu"
+                                        target="_blank"
+                                    >
+                                        Clínica Terapêutica - R. Honório Parentes, 1149 - Jóquei, Teresina - PI, 64048-360
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
