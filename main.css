@@ -86,7 +86,8 @@ body {
 }
 
 .section-title {
-    font-family: pacifico, cursive;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
 }
 
 .text-colored {
