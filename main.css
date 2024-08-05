@@ -36,12 +36,12 @@ body {
 .accordion-flush {
     margin-top: 32px;
     padding: 10px;
-    background-color: #e15f41;
+    background-color: #444f99;
     border-radius: 10px;
 }
 
 .accordion-flush .accordion-item .accordion-header button {
-    background-color: #fc9b85;
+    background-color: #5d66b2;
     color: #fff;
     font-weight: bold;
 }
@@ -49,7 +49,7 @@ body {
 .accordion-flush .accordion-item {
     outline: none;
     border: none;
-    border-bottom: 3px solid #e15f41;
+    border-bottom: 3px solid #444f99;
 }
 
 .accordion-collapse {
@@ -57,7 +57,7 @@ body {
 }
 
 #meu-carousel-com-texto .carousel-inner {
-    border: 10px solid #e15f41;
+    border: 10px solid #444f99;
     border-radius: 10px;
 }
 
@@ -66,12 +66,12 @@ body {
 }
 
 .navbar {
-    background-color: #e15f41;
+    background-color: #444f99;
 }
 
 #cabecalho nav ul.nav a.nav-link.active {
     background-color: #fff;
-    color: #e15f41;
+    color: #444f99;
 }
 
 #cabecalho .nav .nav-link,
@@ -90,16 +90,16 @@ body {
 }
 
 .text-colored {
-    color: #e15f41;
+    color: #444f99;
 }
 
 .nav-experiencia .nav-item .nav-link.active, #fale-conosco button {
-    background-color: #e15f41;
+    background-color: #444f99;
     color: #fff;
 }
 
 .nav-experiencia .nav-item .nav-link:hover {
-    color: #e15f41;
+    color: #444f99;
 }
 
 .social-links li {
